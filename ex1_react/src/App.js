@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import TodoForm from './TodoForm';
-import TodoListFilter from './TodoListFilter';
+import TodoForm from './ex1/TodoForm';
+import TodoListFilter from './ex1/TodoListFilter';
 
 
 
@@ -55,6 +55,7 @@ function App() {
       <h1 style={{ color: "#4d4d4d", marginTop: "20px" }}>TodoMatic</h1>
 
       <TodoForm addTodo={addTodo}/>
+      
 
         <div class="filters btn-group stack-exception">
 
@@ -93,6 +94,7 @@ function App() {
         </div>
 
         <TodoListFilter todos={filteredTodos} todocheckbox={todocheckbox} deleteTodo={deleteTodo} editTodo={editTodo}/>
+        
       </header>
     </div>
   );
