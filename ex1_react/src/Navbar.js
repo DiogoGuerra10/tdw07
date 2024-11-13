@@ -46,6 +46,9 @@ function Navbar() {
                 <NavbarItem>
                     <NavbarLink to="/App2">Aula 2</NavbarLink>
                 </NavbarItem>
+                <NavbarItem>
+                    <NavbarLink to="/App3">Aula 3</NavbarLink>
+                </NavbarItem>
             </NavbarList>
         </NavbarContainer>
     );

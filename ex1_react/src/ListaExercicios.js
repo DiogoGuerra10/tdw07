@@ -6,6 +6,7 @@ import App from './App';
 import Home from './Home';
 import About from './About';
 import App2 from './App2';
+import App3 from './App3';
 
 const ListaExercicios = () => {
   return (
@@ -19,7 +20,7 @@ const ListaExercicios = () => {
             <Route path="/Home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/App2" element={<App2 />} />
-            <Route path="/ex4" element={<div>Conteúdo do Exercício 4</div>} />
+            <Route path="/App3" element={<App3 />} />
           </Routes>
         </div>
       </Router>
