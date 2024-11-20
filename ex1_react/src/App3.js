@@ -30,7 +30,7 @@ const App3 = () => {
       }}
     >
       <img src={logo} alt="Logo" style={{ width: "300px", marginBottom: "10px" }} />
-      <h1 style={{ marginTop: "10px" }}>General Box Of Deposities</h1>
+      <h1 style={{ marginTop: "10px" }}>General Box Of Deposits</h1>
       <h4>Saldo Atual: {saldo}</h4>
       <input
         type="number"

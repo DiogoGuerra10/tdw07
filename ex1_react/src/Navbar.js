@@ -49,6 +49,12 @@ function Navbar() {
                 <NavbarItem>
                     <NavbarLink to="/App3">Aula 3</NavbarLink>
                 </NavbarItem>
+                <NavbarItem>
+                    <NavbarLink to="/App4">Aula 4</NavbarLink>
+                </NavbarItem>
+                <NavbarItem>
+                    <NavbarLink to="/App5">Aula 5</NavbarLink>
+                </NavbarItem>
             </NavbarList>
         </NavbarContainer>
     );
